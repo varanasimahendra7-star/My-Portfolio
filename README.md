@@ -1,0 +1,205 @@
+<html>
+<head>
+<title>Mahendra Varanasi Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+ font-family: Arial;
+ background-color: lightblue;
+ margin:0;
+ padding:0;
+}
+header{
+ background: darkgreen;
+ color:white;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ gap:20px;
+ padding:25px;
+}
+header h1{
+ margin:0;
+ font-size:35px;
+}
+header p{
+ margin:8px 0 0 0;
+ font-size:17px;
+}
+nav{
+ background-color: green;
+ text-align:center;
+}
+nav ul{
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+nav li{
+ display:inline;
+}
+nav li a{
+ color:white;
+ text-decoration:none;
+ padding:14px 20px;
+ display:inline-block;
+}
+nav li a:hover{
+ background: lightgreen;
+ transition: all 0.3s ease;
+}
+.section{
+ background:white;
+ max-width:850px;
+ margin:30px auto;
+ padding:25px;
+ border-radius:10px;
+ box-shadow: 2px 2px 5px darkgray;
+}
+.section h2{
+ color:darkgreen;
+ border-bottom:2px solid green;
+ padding-bottom:10px;
+ margin-bottom:20px;
+ font-size:28px;
+}
+.skills{
+ margin-top:20px;
+}
+.skill{
+ background:lightgreen;
+ padding:12px 15px;
+ margin:10px 8px 10px 0;
+ border-radius:8px;
+ font-weight:bold;
+ display:inline-block;
+ font-size:15px;
+ border:1px solid green;
+}
+.project{
+ background:lightyellow;
+ padding:20px;
+ border-radius:10px;
+ margin-bottom:25px;
+ border-left:5px solid darkgreen;
+}
+.project h3{
+ color:darkgreen;
+ margin-top:0;
+ font-size:22px;
+ margin-bottom:10px;
+}
+.project p{
+ color:darkslategray;
+ line-height:1.6;
+ font-size:16px;
+ margin:0;
+}
+.contact{
+ line-height:1.8;
+ font-size:17px;
+}
+.contact strong{
+ color:darkgreen;
+}
+footer{
+ background: darkgreen;
+ color:white;
+ text-align:center;
+ padding:20px;
+ margin-top:40px;
+ font-size:15px;
+}
+@media screen and (max-width:768px){
+ header{
+  flex-direction:column;
+  text-align:center;
+ }
+ 
+ nav li{
+  display:block;
+ }
+ nav li a{
+  padding:12px;
+  border-bottom:1px solid lightgreen;
+ }
+ .section{
+  width:92%;
+  margin:20px auto;
+  padding:18px;
+ }
+ .skill{
+  margin:6px 4px;
+  padding:10px 12px;
+ }
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="my photo.jpeg" alt="My Photo" width="110" height="110" style="border-radius:50%; border:3px solid white;">
+<div>
+<h1>Mahendra Varanasi</h1>
+<p>AI Enthusiast | Web Developer | Student at Scaler School of Technology</p>
+</div>
+</header>
+
+<nav>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="section" id="about">
+<h2>About Me</h2>
+<p>Hello! I am <strong>Mahendra Varanasi</strong>, a student at <strong>Scaler School of Technology</strong>. I enjoy working on AI projects, web development and learning programming languages. Right now I'm focused on improving my coding skills and building cool projects.</p>
+</div>
+
+<div class="section" id="skills">
+<h2>Skills I Know</h2>
+<div class="skills">
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">JavaScript</span>
+<span class="skill">Java</span>
+<span class="skill">Problem Solving</span>
+</div>
+</div>
+
+<div class="section" id="projects">
+<h2>My Projects</h2>
+
+<div class="project">
+<h3>Hand Tracking Game Control</h3>
+<p>I built this using Python and OpenCV library. You can control games just by moving your hands! It was challenging to make but turned out really cool.</p>
+</div>
+
+<div class="project">
+<h3>Personal Portfolio Website</h3>
+<p>This is the website you're looking at right now! I created it using HTML and CSS as part of my college coursework.</p>
+</div>
+
+<div class="project">
+<h3>Profile Card Component</h3>
+<p>A simple profile card design made with HTML and CSS. It shows personal information in a nice looking card format.</p>
+</div>
+</div>
+
+<div class="section" id="contact">
+<h2>Get in Touch</h2>
+<div class="contact">
+<p><strong>Email:</strong> Mahendra.25bcs10435@sst.scaler.com</p>
+<p><strong>College:</strong> Scaler School of Technology</p>
+</div>
+</div>
+
+<footer>
+<p>&copy; 2025 Mahendra Varanasi - Made with HTML & CSS</p>
+</footer>
+
+</body>
+</html>
